@@ -1,0 +1,68 @@
+
+.profile-container {
+  display: flex;          /* จัดเลย์เอาต์ให้ฝั่งซ้ายและขวาอยู่ขนานกัน */
+  align-items: center;    /* จัดให้อยู่กึ่งกลางแนวตั้ง */
+  gap: 30px;              /* เว้นระยะห่างระหว่างรูปภาพกับข้อความ */
+  justify-content: center; 
+}
+
+.profile-image img {
+  width: 250px;           /* ปรับขนาดความกว้างของรูป */
+  height: 250px;          /* ปรับขนาดความสูงของรูป (ควรเท่ากับความกว้าง) */
+  border-radius: 50%;     /* คำสั่งสำคัญที่ทำให้รูปกลายเป็นวงกลม */
+  object-fit: cover;      /* ช่วยไม่ให้รูปภาพบิดเบี้ยวหรือผิดเพี้ยน */
+}
+
+.profile-info h1 {
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.profile-info p {
+  margin: 8px 0;
+  font-size: 24px;
+  font-style: italic;     /* ทำตัวเอียงตามภาพตัวอย่าง */
+  color: #333;
+}
+
+.profile-info .institute {
+  display: inline-block;
+  margin-top: 10px;
+  color: #4b2c91;         /* สีน้ำเงิน/ม่วงตามตัวอย่าง */
+  text-decoration: underline; /* ขีดเส้นใต้ข้อความ */
+  font-size: 24px;
+}
+.table-container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.table-container th, .exp th {
+  background-color: #000000; 
+  color: #fff;               
+  font-size: 24px;
+  padding: 16px;
+}
+.table-container td, .exp td {
+  background-color: #ffffff;
+  color: #000;
+}
+.table-container th, .table-container td, .exp th, .exp td {
+  border: 1px solid #000;
+  padding: 16px;
+  text-align: center;
+  font-size: 24px;
+}
+
+
+.food-like {
+  list-style-type: disc;  
+  padding-left: 20px;     
+  margin-top: 20px;     
+}
+
+ a{ 
+  font-size: 40px;
+}
